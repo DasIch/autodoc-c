@@ -1,0 +1,4 @@
+*.pyc
+autodoc_c/clang
+clang-*
+testdocs/_build/*
