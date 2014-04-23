@@ -2,3 +2,6 @@
 autodoc_c/clang
 clang-*
 testdocs/_build/*
+.tox
+*.egg-info
+dist/

@@ -53,4 +53,10 @@ def test():
 
     assert 'function' in content
     assert 'This is a function.' in content
-    1/0
+
+    assert 'a_struct' in content
+    assert 'This describes a_struct.'
+    assert 'spam' in content
+    assert 'Describes spam.' in content
+    assert 'eggs' in content
+    assert 'Describes eggs.' in content
